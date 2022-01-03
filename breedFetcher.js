@@ -1,5 +1,5 @@
 const request = require('request');
-const url = 'https://api.thecatapi.com/v1/breeds/search';
+const url = 'https://api.thecatapi.com/v1/breeds/search?q=Chartreux';
 
 request(url, (error, response, body) => {
   console.log('error:', error); 
